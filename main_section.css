@@ -1,34 +1,48 @@
 main {
   display: flex;
-  flex: 5;
-}
-.main_section_div {
-  display: flex;
   flex-direction: column;
-  flex: 1;
+  flex: 5;
+  background-color: rgb(7, 159, 209);
 }
 .main_section_content {
   display: flex;
   flex: 1;
-  height: 30%;
-  width: 50%;
+  height: 100%;
+  width: 80%;
+  margin-left: 9rem;
+  margin-right: 5rem;
+  padding: 1rem;
+  background-color: blue;
+  color: white;
+  font-family: sans-serif;
 }
 .headshot {
   flex: 1;
   height: 34vh;
   width: 5vh;
-  object-fit: cover;
+  object-fit: contain;
 }
 .main_section_content_two {
   flex: 1;
+  height: 100%;
+  width: 80%;
+  margin-left: 9rem;
+  margin-right: 5rem;
+  padding: 1rem;
+  background-color: blue;
+  color: white;
+  font-family: sans-serif;
+  font-size: 1.5rem;
 }
 .main_section_content_first_left {
   display: flex;
   flex-direction: column;
   flex: 1;
+  font-size: 1.5rem;
 }
 .main_section_content_first_left_header {
   flex: 1;
+  font-size: 2rem;
 }
 .main_section_content_first_left_paragraph {
   flex: 5;
