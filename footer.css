@@ -2,11 +2,12 @@ footer {
   display: flex;
   flex: 1;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
 }
 .footer_main_section {
   display: flex;
+  gap: 1rem;
 }
 .social_media_logo {
-  height: 5vh;
+  height: 14vh;
 }

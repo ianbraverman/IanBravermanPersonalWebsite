@@ -10,10 +10,14 @@ main {
 .main_section_content {
   display: flex;
   flex: 1;
+  height: 30%;
+  width: 50%;
 }
 .headshot {
-  height: 20vh;
   flex: 1;
+  height: 34vh;
+  width: 5vh;
+  object-fit: cover;
 }
 .main_section_content_two {
   flex: 1;
@@ -21,6 +25,7 @@ main {
 .main_section_content_first_left {
   display: flex;
   flex-direction: column;
+  flex: 1;
 }
 .main_section_content_first_left_header {
   flex: 1;
