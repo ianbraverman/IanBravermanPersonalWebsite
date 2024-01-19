@@ -115,3 +115,22 @@
   font-family: sans-serif;
   background-color: blue;
 }
+/* PORTFOLIO PAGE CSS */
+.portfolio_main {
+  display: flex;
+  flex-direction: column;
+  flex: 5;
+  background-color: rgb(7, 159, 209);
+  overflow-x: scroll;
+}
+.portfolio_top_header {
+  flex: 5;
+  margin-left: 9rem;
+  margin-right: 5rem;
+  padding: 1rem;
+  width: 80%;
+  color: white;
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  background-color: blue;
+}
