@@ -1,10 +1,11 @@
-main {
+/* THIS IS FOR HOME */
+.home_main {
   display: flex;
   flex-direction: column;
   flex: 5;
   background-color: rgb(7, 159, 209);
 }
-.main_section_content {
+.home_main_section_content {
   display: flex;
   flex: 1;
   height: 100%;
@@ -16,13 +17,13 @@ main {
   color: white;
   font-family: sans-serif;
 }
-.headshot {
+.home_headshot {
   flex: 1;
   height: 34vh;
   width: 5vh;
   object-fit: contain;
 }
-.main_section_content_two {
+.home_main_section_content_two {
   flex: 1;
   height: 100%;
   width: 80%;
@@ -34,16 +35,32 @@ main {
   font-family: sans-serif;
   font-size: 1.5rem;
 }
-.main_section_content_first_left {
+.home_main_section_content_first_left {
   display: flex;
   flex-direction: column;
   flex: 1;
   font-size: 1.5rem;
 }
-.main_section_content_first_left_header {
+.home_main_section_content_first_left_header {
   flex: 1;
   font-size: 2rem;
 }
-.main_section_content_first_left_paragraph {
+.home_main_section_content_first_left_paragraph {
   flex: 5;
+}
+
+/* THIS IS FOR ABOUT */
+.about_main {
+  display: flex;
+  flex-direction: column;
+  flex: 5;
+  background-color: rgb(7, 159, 209);
+  overflow-x: scroll;
+}
+.about_top_header {
+  flex: 3;
+}
+.about_content_sections {
+  flex: 10;
+  flex-direction: column;
 }
