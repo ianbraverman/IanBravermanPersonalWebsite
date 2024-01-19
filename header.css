@@ -1,6 +1,6 @@
 .top_header {
   display: flex;
-  flex: 4;
+  flex: 1;
   justify-content: space-between;
 }
 .main_header_nav {

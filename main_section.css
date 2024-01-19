@@ -1,3 +1,30 @@
 main {
-  flex: 10;
+  display: flex;
+  flex: 5;
+}
+.main_section_div {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.main_section_content {
+  display: flex;
+  flex: 1;
+}
+.headshot {
+  height: 20vh;
+  flex: 1;
+}
+.main_section_content_two {
+  flex: 1;
+}
+.main_section_content_first_left {
+  display: flex;
+  flex-direction: column;
+}
+.main_section_content_first_left_header {
+  flex: 1;
+}
+.main_section_content_first_left_paragraph {
+  flex: 5;
 }
